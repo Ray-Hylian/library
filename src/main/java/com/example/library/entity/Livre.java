@@ -13,9 +13,9 @@ import lombok.Setter;
 @Entity
 @Table(name="livres")
 public class Livre {
-
+    
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long id;
     private String title;
     private String isbn;
