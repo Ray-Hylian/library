@@ -10,8 +10,5 @@ public interface LivreService {
     public List<Livre> getAllLivres();
     public Livre addLivre(Livre livre);
     public Optional<Livre> getLivreById(Long id);
-    public Livre updateLivre();
-    public void deleteLivre(Livre livre);
     public void deleteLivreById(Long id);
-    public void deleteAllLivre();
 }

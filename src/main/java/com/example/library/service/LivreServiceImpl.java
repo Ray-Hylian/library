@@ -30,22 +30,7 @@ public class LivreServiceImpl implements LivreService{
     }
 
     @Override
-    public Livre updateLivre() {
-        return null;
-    }
-
-    @Override
-    public void deleteLivre(Livre livre) {
-        livreRepository.delete(livre);
-    }
-
-    @Override
     public void deleteLivreById(Long id) {
         livreRepository.deleteById(id);
-    }
-
-    @Override
-    public void deleteAllLivre() {
-        livreRepository.deleteAll();
     }
 }
